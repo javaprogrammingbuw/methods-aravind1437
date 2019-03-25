@@ -16,6 +16,10 @@ public class Prime {
 		
 		System.out.println("Enter the Valve of a");
 		a= scan.nextInt();
+
+		//This should have been solved in another method
+		//Doublette missing (not complete)
+
 		if(a==0 || a==1) {
 			System.out.println("Not a prime number");
 		}
